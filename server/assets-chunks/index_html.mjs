@@ -1,7 +1,7 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>Happiness</title>
-  <base href="https://Miguel4lopez.github.io/Happiness/">
+  <base href="/Happiness/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="assets/logo.png">
   <link rel="stylesheet" href="styles.css">
