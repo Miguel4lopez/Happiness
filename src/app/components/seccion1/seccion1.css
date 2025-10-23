@@ -1,0 +1,32 @@
+.parte1, .parte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parte1{
+    width: 80%;
+    height: 80%;
+    margin:6%;
+}
+.img, .img img{
+    height: 100%;
+    width: 100%;
+}
+.howhappy{
+    width: 100%;
+    height: 20%;
+    padding-left:8%;
+    padding-bottom: 11%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.parte1 h2{
+    margin: 0%;
+    font-size: 500%;
+}
+.imgs {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}

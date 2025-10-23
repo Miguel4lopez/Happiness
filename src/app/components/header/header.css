@@ -1,0 +1,38 @@
+.header{
+    background: #f5cb00;
+    display: flex;
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    width: 68%;
+    display: flex;
+}
+.logo img{
+    height: 100%;
+    padding: 1%;
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+.menu{
+    width: 30%;
+}
+.menu ol{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+.menu li{
+    justify-content: center;
+    padding: 1%;
+    padding-left: 4%;
+    font-size: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
