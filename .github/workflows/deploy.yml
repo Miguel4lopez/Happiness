@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build (production)
-        run: npm run build --if-present -- --configuration production
+        run: npm run build --if-present -- --configuration production --project Happiness
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
