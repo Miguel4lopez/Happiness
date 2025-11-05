@@ -1,0 +1,196 @@
+.parte8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 10% 0%; 
+}
+.parte8{
+    width: 100%;
+}
+.form {
+    color: aliceblue;
+    width: 50%;
+    margin-left: 2%;
+}
+form{
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+    padding: 4% 5%;
+    box-sizing: border-box;
+}
+.form, form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.name, .surname,.email,.password,.message,label{
+    display: flex;
+    flex-wrap: wrap;
+}
+.name, .surname{
+    width: 50%;
+    height: 85px;
+}
+input, textarea{
+    font-size: 110%;
+    border: none;  
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 1%;
+    color: white;
+}
+.name input, .surname input{
+    width: 90%;
+    margin: 2% 5%;
+}
+.email, .password{
+    width: 100%;
+    height: 85px;
+}
+.email input, .password input{
+    width: 100%;
+    margin: 2%;
+}
+.message{
+    width: 100%;
+    height: 200px;
+}
+.message textarea{
+    width: 100%;
+    height: 80%;
+    margin: 2%;
+}
+label{
+    font-size: 120%;
+    width: 100%;
+}
+.name label,.surname label{
+    margin: 1% 5%;
+}
+.email label,.password label{
+    margin-left: 2%;
+    margin-top:2%;
+}
+.message label{
+    margin-left: 2%;
+    margin-top:2%;
+}
+.form p{
+    margin-left: 2%;
+    padding-top:4%;
+    width: 100%;
+    font-size: 110%;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.howhappy{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 45%;
+    height: 80%;
+    text-align: left;
+    box-sizing: border-box;
+}
+.parte8 h2{
+    margin: 0%;
+    font-size: 400%;
+    width: 38%;
+    font-weight: 700;
+    color: #f5cb00;
+}
+.howhappy p{
+    width: 90%;
+    padding-right: 22%;
+    line-height: 150%;
+    font-size: 130%;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.parte8 button{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    margin-top: 4%;
+    padding: 2% 5%;
+    border: none;
+    font-weight: 700;
+}
+@media (max-width: 1279px) {
+  .parte8 h2{
+    width: 100%;
+    font-size: 400%;
+  }
+}
+
+@media (max-width: 920px) {
+  .parte8 h2{
+    width: 80%;
+    font-size: 320%;
+  }
+  .parte8 p{
+    font-size: 100%;
+  }
+  .howhappy{
+    width: 45%;
+    margin-left: 2%;
+  }
+  form{
+    width: 100%;
+  }
+  .parte8 button{
+    width: 40%;
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .parte8 h2{
+    font-size: 200%;
+  }
+  .parte8 p{
+    font-size: 80%;
+  }
+  .message{
+    height: 100px;
+  }
+  .message textarea{
+    height: 78%;
+  }
+  input{
+    height: 15px;
+  }
+  .form p{
+    font-size: 70%;
+    font-weight: 200;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .parte8 h2{
+    font-size: 145%;
+  }
+  .parte8 p{
+    font-size: 65%;
+  }
+  .message{
+    height: 50px;
+  }
+  .name, .surname,.email,.password,.message{
+    height: 2%;
+  }
+  .form p{
+    font-size:54%;
+  }
+  .parte8 button{
+    width: 40%;
+    font-size: 70%;
+  }
+  label{
+    font-size: 90%;
+  }
+}

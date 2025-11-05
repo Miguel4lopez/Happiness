@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Happiness</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+  <div id="__debug_errors" style="position:fixed;left:0;right:0;top:0;z-index:9999;background:rgba(255,255,255,0.95);color:#b00;padding:10px;font-family:monospace;display:none;max-height:60vh;overflow:auto"></div>
+  <app-root></app-root>
+  <script>
+    // Mostrar errores fatales directamente en la página para depuración local
+    function showError(msg){
+      const container=document.getElementById('__debug_errors');
+      container.style.display='block';
+      const pre=document.createElement('pre');
+      pre.textContent=msg;
+      container.appendChild(pre);
+    }
+    window.addEventListener('error', e => {
+      const m = (e && e.message) ? e.message : String(e.error || e.reason || e);
+      const s = e.error && e.error.stack ? '\n' + e.error.stack : '';
+      showError('Error: ' + m + s);
+      console.error(e);
+    });
+    window.addEventListener('unhandledrejection', e => {
+      const reason = e.reason && e.reason.stack ? e.reason.stack : JSON.stringify(e.reason);
+      showError('UnhandledRejection: ' + reason);
+      console.error(e);
+    });
+    console.log('debug error catcher installed');
+  </script>
+  <script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script></body>
+</html>

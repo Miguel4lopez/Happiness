@@ -1,0 +1,90 @@
+.parte6{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.img{
+    height: 80%;
+    width: 100%;
+}
+.img img{
+    margin: 9% 0%;
+    width: 100%;
+    clip-path: inset(0% 10%);
+    object-fit: cover;
+}
+.howhappy{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.parte6 h2{
+    margin: 0%;
+    font-size: 400%;
+    width: 100%;
+    font-weight: 700;
+}
+.parte6 p{
+    width: 100%;
+    padding-right: 22%;
+    line-height: 150%;
+    font-size: 130%;
+    font-weight: 500;
+}
+.parte6 button{
+    background-color: #f5cb00;
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    margin-top: 4%;
+    padding: 3% 5%;
+    border: none;
+    font-weight: 700;
+}
+@media (max-width: 1279px) {
+  .parte6 h2{
+    width: 100%;
+    font-size: 400%;
+  }
+}
+
+@media (max-width: 920px) {
+  .parte6 p{
+    font-size: 100%;
+  }
+  .parte6 button{
+    width: 50%;
+  }
+  .parte6 button p{
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .parte6 h2{
+    font-size: 220%;
+  }
+  .parte6 p{
+    font-size: 60%;
+  }
+  .parte6 button{
+    width: 39%;
+    padding-bottom: 4%;
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .parte6 h2{
+    font-size: 150%;
+  }
+  .parte6 p{
+    font-size: 50%;
+  }
+  .parte6 button{
+    font-size: 40%;
+  }
+}

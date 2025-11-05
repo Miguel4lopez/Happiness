@@ -32,7 +32,57 @@
     justify-content: center;
     padding: 1%;
     padding-left: 4%;
-    font-size: 100%;
+    font-size: 120%;
     width: 100%;
     box-sizing: border-box;
+}
+p{
+    font-weight: 800;
+}
+@media (max-width: 1279px) {
+  .menu ol {
+    justify-content: space-around;
+  }
+    .header .logo{
+    width: 60%;
+    }
+    .header .menu{
+      width: 40%;
+    }
+    .header .menu ol{
+      width: 100%;
+    }
+    .header .menu ol li{
+      font-size: 100%;
+      width: 100%;
+      padding-left: 2%;
+    }
+}
+
+@media (max-width: 920px) {
+  .menu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+    .header .menu{
+      width: 60%;
+    }
+    .header .logo{
+      width: 40%;
+    }
+    .header .menu ol{
+      width: 100%;
+    }
+    .header .menu ol li{
+      font-size: 90%;
+      width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+  .header .menu ol li p{
+    font-size: 66%;
+  }
 }

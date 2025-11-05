@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.css"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\nhtml, body {\r\n  width: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n}"],
+  "mappings": ";AACA;AAAM;AACJ,SAAO;AACP,UAAQ;AACR,WAAS;AACX;",
+  "names": []
+}

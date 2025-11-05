@@ -56,6 +56,13 @@
               ],
               "outputHashing": "all"
             },
+            "localtest": {
+              "outputPath": "docs_test",
+              "baseHref": "/",
+              "outputHashing": "none",
+              "sourceMap": true,
+              "optimization": false
+            },
             "development": {
               "optimization": false,
               "extractLicenses": false,

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/seccion1/seccion1.css"],
+  "sourcesContent": [".parte1, .parte2 {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n.parte1{\r\n    width: 80%;\r\n    height: 80%;\r\n    margin:6%;\r\n}\r\n.img, .img img{\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n.howhappy{\r\n    width: 100%;\r\n    height: 20%;\r\n    padding-left:8%;\r\n    padding-bottom: 11%;\r\n    box-sizing: border-box;\r\n    text-align: left;\r\n}\r\n.parte1 h2{\r\n    margin: 0%;\r\n    font-size: 500%;\r\n}\r\n.imgs {\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    justify-content: center;\r\n    align-items: center;\r\n}"],
+  "mappings": ";AAAA,CAAC;AAAQ,CAAC;AACN,WAAS;AACT,mBAAiB;AACjB,eAAa;AACjB;AACA,CALC;AAMG,SAAO;AACP,UAAQ;AACR,UAAO;AACX;AACA,CAAC;AAAK,CAAL,IAAU;AACP,UAAQ;AACR,SAAO;AACX;AACA,CAAC;AACG,SAAO;AACP,UAAQ;AACR,gBAAa;AACb,kBAAgB;AAChB,cAAY;AACZ,cAAY;AAChB;AACA,CAtBC,OAsBO;AACJ,UAAQ;AACR,aAAW;AACf;AACA,CAAC;AACG,WAAS;AACT,aAAW;AACX,mBAAiB;AACjB,eAAa;AACjB;",
+  "names": []
+}
