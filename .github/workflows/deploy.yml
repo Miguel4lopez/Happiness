@@ -27,7 +27,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/Happiness/browser
+          # Publicar la carpeta que contiene los archivos compilados. El build actual coloca
+          # los artefactos en `docs/browser/browser`, por eso lo apuntamos allí.
+          publish_dir: ./docs/browser/browser
           publish_branch: gh-pages
           allow_empty_commit: false
   
