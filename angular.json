@@ -37,7 +37,7 @@
           },
           "configurations": {
             "production": {
-              "outputPath": "docs",
+              "outputPath": "./docs",
               "baseHref": "/Happiness/",
               "outputHashing": "all",
               "sourceMap": false,
